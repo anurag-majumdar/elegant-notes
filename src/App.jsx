@@ -1,15 +1,15 @@
-import { ChakraProvider } from '@chakra-ui/react'
-import './App.css'
-import NotesHome from './notes-home/NotesHome'
+import { ChakraProvider } from '@chakra-ui/react';
+import './App.css';
+import NotesApp from './notes-app/NotesApp';
 
 function App() {
   return (
     <>
       <ChakraProvider>
-        <NotesHome />
+        <NotesApp />
       </ChakraProvider>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
