@@ -3,13 +3,13 @@ import './App.css';
 import NotesApp from './notes-app/NotesApp';
 
 function App() {
-  return (
-    <>
-      <ChakraProvider>
-        <NotesApp />
-      </ChakraProvider>
-    </>
-  );
+	return (
+		<>
+			<ChakraProvider>
+				<NotesApp />
+			</ChakraProvider>
+		</>
+	);
 }
 
 export default App;
